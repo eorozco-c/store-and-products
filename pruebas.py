@@ -1,5 +1,5 @@
-from tienda import Store
-from product import Product
+from tiendas import Store
+from products import Product
 
 store = Store("Tienda FALLAPLEY")
 print("#"*20,"Agregando Productos","#"*20)

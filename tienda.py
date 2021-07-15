@@ -1,8 +1,7 @@
-from typing import List
 from product import Product
 
 class Store:
-    def __init__(self,name, products: List[Product] = None):
+    def __init__(self,name, products: list[Product] = None):
         self.name = name
         self.products = products or []
 
